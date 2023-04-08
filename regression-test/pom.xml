@@ -35,6 +35,27 @@
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>ru.yandex.qatools.ashot</groupId>-->
+<!--            <artifactId>ashot</artifactId>-->
+<!--            <version>1.5.4</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.logging.log4j</groupId>-->
+<!--            <artifactId>log4j-core</artifactId>-->
+<!--            <version>2.14.1</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.logging.log4j</groupId>-->
+<!--            <artifactId>log4j-api</artifactId>-->
+<!--            <version>2.14.1</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.aventstack</groupId>-->
+<!--            <artifactId>extentreports</artifactId>-->
+<!--            <version>5.0.8</version>-->
+<!--        </dependency>-->
     </dependencies>
     <build>
         <plugins>
@@ -81,7 +102,7 @@
                 <version>2.10.0</version>
                 <configuration>
                     <!-- Keep version in sync with dependencies -->
-                    <reportVersion>${allure.version}</reportVersion>
+                    <reportVersion>${allure-testng-version}</reportVersion>
                 </configuration>
             </plugin>
         </plugins>

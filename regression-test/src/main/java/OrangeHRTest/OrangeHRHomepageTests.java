@@ -25,6 +25,7 @@ public class OrangeHRHomepageTests extends BaseTest {
         bookAFreeDemoPage.typeIntoFullNameTextInputBox("John Doe");
         bookAFreeDemoPage.typeIntoBusinessEmailTextInputBox("john.doe@gmail.com");
         bookAFreeDemoPage.selectCountryDropDown("Malaysia");
+        bookAFreeDemoPage.typeIntoContactTextInputBox("0123456789");
 
         googleCaptcha.clickReadCaptchaCheckBox();
 
