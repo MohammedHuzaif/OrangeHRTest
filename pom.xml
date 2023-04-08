@@ -9,7 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>domain</module>
         <module>framework</module>
         <module>page-objects</module>
         <module>regression-test</module>
@@ -24,6 +23,7 @@
         <webdrivermanager.version>3.0.0</webdrivermanager.version>
         <java.version>1.8</java.version>
         <testng.version>7.7.0</testng.version>
+        <allure.version>2.12.1</allure.version>
     </properties>
 
 </project>
